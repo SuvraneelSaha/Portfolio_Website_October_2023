@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto",sans-serif;
+  
+ 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+header{
+  background-color: #111;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1{
+  color: #fff;
+  font-size: 40px;
+}
+
+nav{
+  padding: 20px;
+}
+
+nav ul{
+  text-align: center;
+  list-style-type: none;
+
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+nav li a:hover{
+  color: #888;
+}
+
+.home{
+  background-image: url(./images/BGImage1.jpg);
+  padding: 30px;
+  background-position: center;
+  /* position of the background image */
+  background-size: cover;
+}
+
+.home__content{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.home__content h4{
+  font-weight: 300;
+  /* boldness */
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.home__content h2{
+  font-weight: 300;
+  /* boldness */
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.skills{
+  background-image: url(./images/BGImage2.jpg);
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.skills h3, .about h3, .contact h3{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.skills__img ,.about__content{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+
+
+}
+
+.skills__img img{
+  object-fit: contain;
+  /* need to learn object fit */
+  width: 100%;
+  max-width: 700px;
+  /* ie when stretching how much the div will have max width */
+  border-radius: 18px;
+}
+
+.about{
+  background-image: url(./images/BGImage3.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.about__content{
+  color: #fff;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  /* text-align: center;
+  margin: 30px; */
+
+}
+
+.about__content p{
+  line-height: 25px;
+  /* height of each line */
+  margin: 10px;
+}
+
+.contact{
+  background-image:url(./images/BGContact.jpg) ;
+  background-position: center;
+  background-size: cover;
+
+}
+
+footer{
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+font-family: 'Pixelify Sans', cursive;;
+}
+
+.contact__form{
+  padding: 20px;
+  text-align: center;
+}
+
+.contact__form input{
+  border: 1px solid #dfdf;
+  padding: 8px;
+  width: 50%;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.contact__form button{
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.bio{
+font-family: 'Pixelify Sans', cursive;
+font-size: 20px;
+}
+.quote{
+  
+  font-family: 'Ubuntu', sans-serif;
+ 
+}
+
+.github{
+  color: rgb(255, 164, 85);
+}
+.github:visited{
+  color: rgb(255, 164, 85);
+}
+.github:hover{
+  color: hotpink;
+}
+
+.logo{
+  color: rgb(255, 164, 85);
+}
+
+.logo:hover{
+  color: hotpink;
+}
+
+
+
+.HH3:hover{
+  color: rgb(255, 164, 85);
+}
